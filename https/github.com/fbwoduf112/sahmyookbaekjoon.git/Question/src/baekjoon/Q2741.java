@@ -10,10 +10,11 @@ public class Q2741 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int n;
-		n = Integer.parseInt(br.readLine());
 		
-		for(int i=n; i>=1; i--) System.out.println(i);
-		//fdfd
+		int n = Integer.parseInt(br.readLine());
+		int k =5;
+		k =565;
+		for(int i=n; i>=1; i--)
+			System.out.println(i);
 	}
 }
